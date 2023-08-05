@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="styles/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet" />
+    <title>Jira sucks: example HTML page</title>
+  </head>
+
+  <body>
+    <img src="images/jira-icon.png" alt="Jira icon: The pinnacle of arrows" />
+    <h1>Header of why jira sucks</h1>
+    <p>
+      Source: <a href="https://ifuckinghatejira.com/21/">this wizzkit</a><br><br>
+      To me, what sucks about JIRA (and would suck about any well-designed tool that replaces it) is not “feature x” but the entire JIRA mentality. All of it. <b>It encourages micro-management</b>. It encourages more and more process. It is the enemy of getting better at the DORA metrics, which requires streamlining process.<br>
+      Tickets in JIRA are not the work itself, never was and never will be, it is a LARP of the work, but it gets taken for the central thing. This is an illusion. Fixing a bug without filing a JIRA ticket is in itself progress. Moving a JIRA card without any other change is not. Yet the second is what's visible and therefor what's rewarded.<br>
+
+      <div id="core-statement">Any problem gets solved with “more JIRA” which stops working when the remaining problems are caused by too much JIRA. And yet they keep trying, because it gives “control”. <b>JIRA is a like metastatic tumour</b> that will grow until it kills the host.</div><br>
+
+      In case the cancer metaphor didn't make it very clear, I don't like JIRA much. Yet if JIRA were to die today, the middle management who live by JIRA would replace it with something else equally bad, if not worse.
+      Filling in missing features won't and can't fix that.
+    </p>
+
+    <h2>Do you agree?</h2>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" />
+        </li>
+        <li>
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" />
+        </li>
+        <li>
+          <label for="agree">I agree:</label>
+          <input type="checkbox" id="agree-checked" name="agree-checked" />
+        </li>
+        <li class="button">
+          <button type="submit">Just... take my answer</button>
+        </li>
+      </ul>
+    </form>
+
+  </body>
+
+</html>
